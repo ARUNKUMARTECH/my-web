@@ -58,7 +58,31 @@ p {
 .brand h1 span {
 	color: crimson;
 }
+.brand a {
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: Tomato;
+	
+}
+.brand a span {
+	color: crimson;
+}
+.brand  p{
 
+	text-transform: uppercase;
+	color: Tomato;
+		font-size: 4rem;
+	font-weight: 300;
+	
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+	
+}
+.brand p span {
+	color: crimson;
+}
 
 #header {
 	position: fixed;
@@ -247,7 +271,17 @@ p {
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
-
+#hero h2 {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	text-align: top;
+	position: relative;
+	color: orange;
+	background-color:Tomato
+	animation: text_reveal 0.5s ease forwards;
+	animation-delay: 1s;
+}
 
 #services .services {
 	flex-direction: column;
@@ -484,6 +518,16 @@ p {
 	font-weight: 500;
 }
 
+#contact .contact-info h3 {
+	font-size: 1rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+#contact .contact-info a {
+	font-size: 1rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
 #footer {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
